@@ -12,13 +12,37 @@
 .side-bar-header{
   height: 100px;
   padding: 0 20px;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-name a{
+  font-size: 16px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.create-room a{
+  font-size: 10px;
+  color: blanchedalmond;
+  border: 1px solid black;
+  padding: 14px;
+  text-decoration: none;
 }
 .rooms{
   background-color: palevioletred;
-height: calc(100vh - 100px);
-padding: 0 20px;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
 }
-
+.room {
+  padding: 20px 0 40px ;
+}
+.room-name a {
+  text-decoration: none;
+  color: brown;
+}
 .chat{
   background-color: aqua;
   width: calc(100vw - 300px);
